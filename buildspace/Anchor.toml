@@ -1,0 +1,12 @@
+[programs.devnet]
+buildspace = "EEgTUKc9SVhcq1BG1ruWDB6Mgt1MFGrmXe4DVnpZchkj"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/cameron/.config/solana/id.json"
+
+[scripts]
+test = "node tests/buildspace.js"
